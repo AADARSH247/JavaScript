@@ -45,4 +45,4 @@ if (number%5==0){
 else{
     console.log("Not a multiple of 5");
 }
-console.log("Hello!")
+console.log("Hello!");
