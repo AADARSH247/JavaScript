@@ -1,0 +1,28 @@
+/* #Heading{
+    color: rgb(109, 109, 252);
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: line-through;
+    background-color: red;
+}
+body{
+    background-color: aquamarine;
+}
+button{
+    color:blueviolet;
+}
+.Header{
+    color:rgb(98, 207, 98);
+    text-decoration: overline;
+   
+
+} */
+
+.box{
+    height: 100px;
+    width: 100px;
+    border:1px solid black;
+    background-color: aqua;
+    margin:5px;
+    text-align: center;
+    
+}
