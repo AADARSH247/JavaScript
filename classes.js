@@ -38,12 +38,61 @@
 
 // let fortuner = new Toyotacar("fortuner");
 
-class parent{
-    hello(){
-        console.log("hello");
+// class parent{
+//     hello(){
+//         console.log("hello");
+//     }
+// }
+// class child extends parent{
+
+// }
+// let chill = new child();
+
+// class person{
+//     constructor(name){
+        
+//         this.species = "homo sapiens";
+//         this.name=name;
+//     }
+//     eat(){
+//         console.log("eat ");
+//     }
+// }
+// class engineering extends person{
+//     constructor(name){
+//         super(name); // to invoke parent class constructor 
+//     }
+//     work(){
+//         super.eat();
+//          console.log("solve problem, build somethings");
+//     }
+// }
+// // class Doctor extends person{
+// //     work(){
+// //          console.log("Treat Patients");
+// //     }
+// // }
+// let aadarsh = new engineering("aadarsh");
+let DATA="secret website data";
+class user{
+    constructor(name,email){
+        this.name=name;
+        this.email=email;
+    }
+    viewData(){
+        console.log("some website data");
+    }
+};
+let user1=new user("aadarsh","aadarshghimre2@gmail.com");
+let user2=new user("hellna","hellna3@gmail.com");
+
+class admin extends user{
+    constructor(name,email){
+        super(name,email);
+    }
+    editdata(){
+        DATA="some new value ";
     }
 }
-class child extends parent{
 
-}
-let chill = new child();
+let admin1=new admin("admin","admin@gmail.com");
